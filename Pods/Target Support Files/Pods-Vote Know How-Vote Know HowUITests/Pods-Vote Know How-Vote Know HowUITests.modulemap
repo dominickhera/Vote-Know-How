@@ -1,0 +1,6 @@
+framework module Pods_Vote_Know_How_Vote_Know_HowUITests {
+  umbrella header "Pods-Vote Know How-Vote Know HowUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
