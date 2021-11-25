@@ -18,3 +18,11 @@ target 'Vote Know How' do
   end
 
 end
+
+plugin 'cocoapods-keys', {
+    :project => "Vote Know How",
+    :target => "Vote Know How",
+    :keys => [
+        "CongressAPIKey"
+    ]
+}

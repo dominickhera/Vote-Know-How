@@ -141,7 +141,7 @@ class Representative: NSObject, Decodable
         missedVotesPercent = try values.decodeIfPresent(Float.self, forKey: .missedVotesPercent)
         votesWithPartyPercent = try values.decodeIfPresent(Float.self, forKey: .votesWithPartyPercent)
         votesAgainstPartyPercent = try values.decodeIfPresent(Float.self, forKey: .votesAgainstPartyPercent)
-        }
+    }
 
 //    var dateOfBirth: Date?
 //    var lastUpdated: Date?
