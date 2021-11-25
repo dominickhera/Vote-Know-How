@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-Vote Know How-Vote Know HowUITests/Pods-Vote Know How-Vote Know HowUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/Keys/Keys.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

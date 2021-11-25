@@ -7,6 +7,7 @@ target 'Vote Know How' do
 
   # Pods for Vote Know How
   pod 'Alamofire'
+  pod 'SwiftyJSON'
 
   target 'Vote Know HowTests' do
     inherit! :search_paths
@@ -26,3 +27,4 @@ plugin 'cocoapods-keys', {
         "CongressAPIKey"
     ]
 }
+
