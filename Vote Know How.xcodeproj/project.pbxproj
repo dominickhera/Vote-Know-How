@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		182AB390FAFC01A159956895 /* Pods_Vote_Know_HowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34067C51C16B764BFF66EF7 /* Pods_Vote_Know_HowTests.framework */; };
 		25771E4F2738515D00A8DC07 /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25771E4E2738515D00A8DC07 /* Representative.swift */; };
+		257837B4276FE6B400F2817C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257837B3276FE6B400F2817C /* NetworkManager.swift */; };
 		25B7D7CB27377B6C0089BF40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B7D7CA27377B6C0089BF40 /* AppDelegate.swift */; };
 		25B7D7CD27377B6C0089BF40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B7D7CC27377B6C0089BF40 /* SceneDelegate.swift */; };
 		25B7D7CF27377B6C0089BF40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B7D7CE27377B6C0089BF40 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		25771E4E2738515D00A8DC07 /* Representative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
+		257837B3276FE6B400F2817C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		25B7D7C727377B6C0089BF40 /* Vote Know How.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vote Know How.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B7D7CA27377B6C0089BF40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25B7D7CC27377B6C0089BF40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		257837B2276FE6A200F2817C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				257837B3276FE6B400F2817C /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		25B7D7BE27377B6C0089BF40 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +138,7 @@
 		25B7D7C927377B6C0089BF40 /* Vote Know How */ = {
 			isa = PBXGroup;
 			children = (
+				257837B2276FE6A200F2817C /* Managers */,
 				25771E4D2738514900A8DC07 /* Models */,
 				25B7D7CA27377B6C0089BF40 /* AppDelegate.swift */,
 				25B7D7CC27377B6C0089BF40 /* SceneDelegate.swift */,
@@ -168,7 +179,6 @@
 				D777114E150647A5836C2DC3 /* Pods-Vote Know HowTests.debug.xcconfig */,
 				58DAFF67FE7DC8C62C0FDFAA /* Pods-Vote Know HowTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -421,6 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257837B4276FE6B400F2817C /* NetworkManager.swift in Sources */,
 				25B7D7CF27377B6C0089BF40 /* ViewController.swift in Sources */,
 				25B7D7CB27377B6C0089BF40 /* AppDelegate.swift in Sources */,
 				25B7D7CD27377B6C0089BF40 /* SceneDelegate.swift in Sources */,
